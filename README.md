@@ -9,7 +9,8 @@ pip install tensorflow keras opencv-python PyQt5 matplotlib
 Dataset
 Download the brain tumor dataset from Kaggle:
 Brain Tumor MRI Dataset
-Extract the dataset and place it in the data/ directory inside the project folder.
+Create a folder named dataset in the project directory.
+Extract the downloaded dataset and paste it into the dataset/ directory.
 
 Steps to Run the Project
 Train the Model:
