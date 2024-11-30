@@ -6,7 +6,10 @@ Prerequisites
 Make sure you have Python installed. You'll need to install the following libraries:
 pip install tensorflow keras opencv-python PyQt5 matplotlib  
 
-Extract the dataset and place it in the project directory under data/.
+Dataset
+Download the brain tumor dataset from Kaggle:
+Brain Tumor MRI Dataset
+Extract the dataset and place it in the data/ directory inside the project folder.
 
 Steps to Run the Project
 Train the Model:
