@@ -4,17 +4,22 @@ A deep learning project that classifies brain tumors from medical images using a
 Getting Started
 Prerequisites
 Make sure you have Python installed. You'll need to install the following libraries:
-
 pip install tensorflow keras opencv-python PyQt5 matplotlib  
-
 
 Extract the dataset and place it in the project directory under data/.
 
+Steps to Run the Project
+Train the Model:
+Run the training script to build and save the model:
+
+python training_code.py  
+
 Run the GUI Interface:
-Run the following command to launch the GUI:
-python gui.py  
+Once the model is trained and saved, launch the GUI to classify images:
+
+python gui_interface_code.py  
 Upload Image:
-Use the interface to upload a brain MRI image and get the classification result.
+Use the GUI to upload an MRI image and view the classification result.
 
 File Structure
 model.py: CNN model architecture.
